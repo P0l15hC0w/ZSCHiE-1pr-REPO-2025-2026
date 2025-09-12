@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FORMULARZ</title>
+    <style>
+        body {
+            background: #f7f7f7;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 400px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+            padding: 32px 24px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 24px;
+            font-size: 2rem;
+            color: #333;
+        }
+        form label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: 500;
+            color: #444;
+        }
+        form input,
+        form select {
+            width: 100%;
+            padding: 8px 10px;
+            margin-bottom: 18px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 1rem;
+            box-sizing: border-box;
+            background: #fafafa;
+            transition: border-color 0.2s;
+        }
+        form input:focus {
+            border-color: #0078d7;
+            outline: none;
+        }
+        button[type="submit"] {
+            width: 100%;
+            padding: 10px 0;
+            background: #0078d7;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        button[type="submit"]:hover {
+            background: #005fa3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Prosty formularz</h1>
+        <form method="POST" action="/submit">
+            <label for="name">Imię:</label>
+            <input type="text" name="name" required>
+
+            <label for="age">Wiek:</label>
+            <input type="number" name="age" min="0" max="255" required>
+
+            <label for="email">Adres e-mail:</label>
+            <input type="email" name="email" required>
+
+            <label for="color">Ulubiony kolor:</label>
+            <input type="color" name="color">
+
+            <button type="submit">Wyślij</button>
+        </form>
+    </div>
+</body>
+</html>
