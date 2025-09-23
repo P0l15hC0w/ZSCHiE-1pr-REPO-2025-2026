@@ -1,0 +1,127 @@
+h1{
+    color: #333;
+    text-align:left;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #f4f4f4;
+    color: #333;
+    padding-top: 0px;
+    min-height: 70px;
+}
+nav {
+    padding-bottom: 20px;
+    border-bottom: #0779e4 3px solid;
+
+}
+nav a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    text-decoration: none;
+    margin: 15px;
+    padding: 7px 20px;
+    font-size: 18px;
+    border: #0779e4 3px solid;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+nav a:hover {
+    background: #0779e4;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 15px;
+}
+td {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+    color: #333;
+    text-align: left;
+    border: #0779e4 3px solid;
+    border-radius: 3px;
+    text-align: center;
+    transition: 0.3s;
+    background-color: white;
+}
+td img {
+    border-radius: 15px;
+}
+td:hover {
+    background: #0779e4;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 15px;
+}
+tr {
+    align-items: center;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+}
+footer p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #e7e7e7;
+    padding: 10px;
+}
+table {
+    width: 100%;
+    background-color: #f4f4f4;
+    margin: 0px 0;
+    font-size: 18px;
+}
+td h4 {
+    margin: 0;
+    padding: 0;
+}
+form {
+    width: 100%;
+    background-color: #f4f4f4;
+    margin: 0px 0;
+    font-size: 18px;
+}
+form label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    text-align: left;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+form input, form textarea {
+    width: 50%;
+    padding: 10px;
+    margin: 15px;
+    border: #0779e4 3px solid;
+    border-radius: 3px;
+}
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    text-decoration: none;
+    margin: 15px;
+    padding: 7px 20px;
+    font-size: 18px;
+    border: #0779e4 3px solid;
+    transition: 0.3s;
+    border-radius: 3px;
+    background-color: white;
+    width: 50%;
+}
+button:hover {
+    background: #0779e4;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 15px;
+}
